@@ -1,0 +1,102 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+ul li{
+    list-style: none;
+    color: #77a6b6;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #77a6b6;
+    display: inline-block;
+}
+.alignRight{
+    float: right;
+    padding-right: 34px;
+}
+.alignRight a{
+    background-color: white;
+    border: 1px solid #77a6b6;
+    padding: 10px;
+    transition: all ease-in-out .3s;
+}
+.alignRight a:hover{
+    transition: all ease-in-out .3s;
+    background-color: #77a6b6;
+    border: none;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+.images {
+    display: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+#chargement {
+    display: block;
+}
+.imagesSelect{
+    text-align: center;
+}
+.imagesSelect img {
+    width: 50%;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+}
+.imagesSelect img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button{
+    background-color: #77a6b6;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    transition: all ease-in-out .3s;
+}
+button:hover{
+    transition: all ease-in-out .3s;
+    color: #77a6b6;
+    background-color: #fff2;
+}
